@@ -1,0 +1,14 @@
+# Indian Equity Multi-Agent Research System - dependencies (all free/open-source)
+# Python 3.10+ recommended.  Install:  pip install -r requirements.txt
+
+streamlit>=1.42          # web application (AppTest, width= API)
+yfinance>=0.2.44         # NSE/BSE prices (.NS), financial statements, macro tickers
+pandas>=2.0.0            # dataframes + indicators
+numpy>=1.24.0
+requests>=2.31.0         # NSE public endpoint client (built-in, no SDK needed)
+feedparser>=6.0.10       # free RSS: Google News, Economic Times, Moneycontrol, BS
+python-dateutil>=2.8.2
+
+# ---- optional (code auto-detects them; not required) ------------------------
+# nsepython>=2.9          # alternative free NSE client; used first if installed
+# pandas-ta>=0.3.14       # extra indicators; the system ships its own pure-pandas set
